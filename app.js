@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
 
     res.write("Hello 👋 Mallikarjuna! Your DevOps Multi-Cloud App is Running\n");
     res.write("Hello 👋 MK! Version 2 deployed automatically 🚀\n");
-    res.write("Hello 👋 Welcome to the Multi-Cloud App! 🚀\n");
+    res.write("Hello 👋 Welcome to the Multi-Cloud App! 🚀......................................................................\n");
 
     res.end();   // IMPORTANT: end only once
 });
