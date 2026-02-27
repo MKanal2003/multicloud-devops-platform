@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { "Content-Type": "text/plain" });
     res.end("Hello 👋 Mallikarjuna! Your DevOps Multi-Cloud App is Running\n");
     res.end("Hello 👋 MK! Version 2 deployed automatically 🚀\n");
-    res.end("Hello 👋 Welcome to the Multi-Cloud App! 🚀\n");
+    res.end("Hello 👋 Welcome to the Multi-Cloud App! ........................🚀\n");
 });
 
 server.listen(PORT, () => {
