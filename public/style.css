@@ -1,0 +1,38 @@
+body{
+  font-family: Arial;
+  text-align:center;
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:white;
+}
+
+.architecture{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+  margin-top:40px;
+  flex-wrap:wrap;
+}
+
+.box{
+  padding:20px;
+  border-radius:10px;
+  font-weight:bold;
+  animation: float 3s infinite ease-in-out;
+}
+
+.github{background:#24292e;}
+.azure{background:#0078d4;}
+.acr{background:#2b88d8;}
+.aws{background:#ff9900;color:black;}
+.users{background:#00c853;}
+
+.arrow{
+  font-size:25px;
+}
+
+@keyframes float{
+  0%{transform:translateY(0px);}
+  50%{transform:translateY(-10px);}
+  100%{transform:translateY(0px);}
+}
