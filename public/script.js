@@ -1,10 +1,15 @@
-fetch("/health")
-.then(res => res.text())
-.then(data => {
-  document.getElementById("status").innerHTML =
-    "System Health: 🟢 " + data;
-})
-.catch(() => {
-  document.getElementById("status").innerHTML =
-    "System Health: 🔴 DOWN";
-});
+async function checkHealth(){
+    try{
+        const res = await fetch("/health");
+        const text = await res.text();
+        document.getElementById("status").innerHTML =
+        "🟢 System Healthy : " + text;
+    }catch{
+        document.getElementById("status").innerHTML =
+        "🔴 System Down";
+    }
+}
+
+// refresh every 5 sec (looks live monitoring)
+checkHealth();
+setInterval(checkHealth,5000);
