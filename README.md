@@ -103,3 +103,31 @@ Unlike basic DevOps demos, this project:
 
 **Mallikarjuna Kanal**
 DevOps Engineer | Cloud & Automation Enthusiast
+
+
+## Project Demonstration
+
+### Live Application
+![Live Site](multicloud-devops-platform/live-site.png)
+
+### Auto Scaling (AWS EC2)
+![Auto Scaling](multicloud-devops-platform/autoscaling.png)
+
+### Load Balancer Health
+![Load Balancer](multicloud-devops-platform/loadbalancer-healthy.png)
+
+### CI/CD Pipeline (Azure DevOps)
+![Pipeline](multicloud-devops-platform/pipeline-success.png)
+
+### Container Registry (ACR)
+![ACR](multicloud-devops-platform/acr-images.png)
+
+### Monitoring & Auto-Healing (GCP)
+![GCP Alert](multicloud-devops-platform/gcp-alert.png)
+
+### Uptime Monitoring
+![Uptime](multicloud-devops-platform/uptime-check.png)
+
+
+
+
