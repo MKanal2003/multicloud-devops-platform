@@ -2,7 +2,10 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY app.js .
+COPY . .
+
+ARG VERSION=1
+ENV VERSION=$VERSION
 
 EXPOSE 3000
 
